@@ -9,6 +9,8 @@ import CartScreen from "../screens/shop/CartScreen";
 import OrdersScreen from "../screens/shop/OrdersScreen";
 import { createDrawerNavigator } from "react-navigation-drawer";
 import { Ionicons } from "@expo/vector-icons";
+import UserProductsScreen from "../screens/user/UserProductsScreen";
+import EditProductScreen from "../screens/user/EditProductScreen";
 
 const defaultNavOptions = {
   headerStyle: {
@@ -35,6 +37,7 @@ const productsNavigator = createStackNavigator(
         <Ionicons
           name={Platform.OS === "android" ? "md-cart" : "ios-cart"}
           size={23}
+          // style={{ marginTop: 50 }}
           color={drawerConfig.tintColor}
         />
       ),
@@ -61,17 +64,39 @@ const OrdersNavigator = createStackNavigator(
   }
 );
 
+const AdminNavigator = createStackNavigator(
+  {
+    UserProducts: UserProductsScreen,
+    EditProducts: EditProductScreen,
+  },
+  {
+    navigationOptions: {
+      drawerIcon: (drawerConfig) => (
+        <Ionicons
+          name={Platform.OS === "android" ? "md-create" : "ios-create"}
+          size={23}
+          color={drawerConfig.tintColor}
+        />
+      ),
+    },
+    defaultNavigationOptions: defaultNavOptions,
+  }
+);
+
 const ShopNavigator = createDrawerNavigator(
   {
     Products: productsNavigator,
     Orders: OrdersNavigator,
+    Admin: AdminNavigator,
   },
   {
     contentOptions: {
       activeTintColor: Colors.primary,
+      itemStyle: {
+        marginTop: 30,
+      },
       labelStyle: {
         fontFamily: "open-sans-bold",
-        marginTop: 30,
       },
     },
   }
