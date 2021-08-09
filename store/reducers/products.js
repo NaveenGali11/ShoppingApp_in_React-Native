@@ -3,6 +3,7 @@ import product from "../../models/product";
 import {
   CREATE_PRODUCT,
   DELETE_PRODUCT,
+  SET_PRODUCTS,
   UPDATE_PRODUCT,
 } from "../actions/products";
 
@@ -13,6 +14,12 @@ const initialState = {
 
 export default (state = initialState, action) => {
   switch (action.type) {
+    case SET_PRODUCTS:
+      return {
+        avaliableProducts: action.products,
+        userProducts: action.products.filter((prod) => prod.ownerId === "u1"),
+      };
+
     case DELETE_PRODUCT:
       return {
         ...state,
@@ -26,7 +33,7 @@ export default (state = initialState, action) => {
 
     case CREATE_PRODUCT:
       const newProduct = new product(
-        new Date().toString(),
+        action.productData.id,
         "u1",
         action.productData.initialState,
         action.productData.imageUrl,
