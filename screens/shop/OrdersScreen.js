@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import {
   ActivityIndicator,
-  Button,
   FlatList,
   StyleSheet,
   Text,
@@ -36,13 +35,15 @@ const OrdersScreen = (props) => {
     );
   }
 
+  if (orders.length === 0) {
+    return (
+      <View style={styles.zeroProducts}>
+        <Text style={styles.zeroProductsText}>No Orders are Found!</Text>
+      </View>
+    );
+  }
+
   return (
-    // <Button
-    //   title="Press Me!"
-    //   onPress={() => {
-    //     console.log(Date());
-    //   }}
-    // />
     <FlatList
       data={orders}
       keyExtractor={(item) => item.id}
@@ -84,6 +85,16 @@ const styles = StyleSheet.create({
     fontFamily: "jetbrains-light",
     fontSize: 20,
     includeFontPadding: true,
+  },
+  zeroProducts: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  zeroProductsText: {
+    color: Colors.primary,
+    fontSize: 23,
+    fontFamily: "jetbrains-italic",
   },
 });
 
