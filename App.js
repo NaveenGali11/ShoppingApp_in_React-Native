@@ -3,12 +3,12 @@ import { applyMiddleware, combineReducers, createStore } from "redux";
 import { Provider } from "react-redux";
 import productsReducer from "./store/reducers/products";
 import * as Font from "expo-font";
-import ShopNavigator from "./navigation/ShopNavigator";
 import AppLoading from "expo-app-loading";
 import cartReducer from "./store/reducers/cart";
 import ordersReducer from "./store/reducers/orders";
 import ReduxThunk from "redux-thunk";
 import authReducer from "./store/reducers/auth";
+import NavigationContainer from "./navigation/NavigationContainer";
 
 const rootReducer = combineReducers({
   products: productsReducer,
@@ -48,7 +48,7 @@ export default function App() {
 
   return (
     <Provider store={store}>
-      <ShopNavigator />
+      <NavigationContainer />
     </Provider>
   );
 }

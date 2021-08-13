@@ -25,7 +25,7 @@ export const fetchProducts = () => {
         loadedProducts.push(
           new Product(
             key,
-            "u1",
+            resData[key].ownerId,
             resData[key].title,
             resData[key].imageUrl,
             resData[key].description,
@@ -37,7 +37,7 @@ export const fetchProducts = () => {
       dispatch({
         type: SET_PRODUCTS,
         products: loadedProducts,
-        userProducts: loadedProducts.filter((prod) => prod.owner === userId),
+        userProducts: loadedProducts.filter((prod) => prod.ownerId === userId),
       });
     } catch (err) {
       //send to custom analytics server

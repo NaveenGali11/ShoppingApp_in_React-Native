@@ -2,20 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53a8965b-c092-4e39-a4f2-3ddace684fcd" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/navigation/ShopNavigator.js" beforeDir="false" afterPath="$PROJECT_DIR$/navigation/ShopNavigator.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/shop/OrdersScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/shop/OrdersScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/user/UserProductsScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/user/UserProductsScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/actions/orders.js" beforeDir="false" afterPath="$PROJECT_DIR$/store/actions/orders.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/user/EditProductScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/user/EditProductScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/actions/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/store/actions/auth.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/store/actions/products.js" beforeDir="false" afterPath="$PROJECT_DIR$/store/actions/products.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/reducers/products.js" beforeDir="false" afterPath="$PROJECT_DIR$/store/reducers/products.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/reducers/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/store/reducers/auth.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -27,6 +35,9 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="2" />
   </component>
   <component name="ProjectId" id="1wcxWYnqU9JHrKX8dFfcq75jV9S" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -47,6 +58,7 @@
     <property name="prettierjs.PrettierConfiguration.Package" value="D:\ReactNative_Udemy\shopApp\node_modules\prettier" />
     <property name="rearrange.code.on.save" value="true" />
     <property name="settings.editor.selected.configurable" value="actions.on.save" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2021.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -57,7 +69,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1628771713846</updated>
-      <workItem from="1628771724780" duration="5822000" />
+      <workItem from="1628771724780" duration="8692000" />
+      <workItem from="1628784607525" duration="2979000" />
+      <workItem from="1628816928721" duration="4122000" />
     </task>
     <servers />
   </component>

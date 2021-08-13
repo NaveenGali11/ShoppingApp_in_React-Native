@@ -133,16 +133,18 @@ const EditProductScreen = (props) => {
   );
 
   if (isLoading) {
-    <View style={styles.centered}>
-      <ActivityIndicator size="large" color={Colors.primary} />
-    </View>;
+    return (
+      <View style={styles.centered}>
+        <ActivityIndicator size="large" color={Colors.primary} />
+      </View>
+    );
   }
 
   return (
     <KeyboardAvoidingView
       style={{ flex: 1 }}
-      behavior="padding"
-      keyboardVerticalOffset={10}
+      behavior="height"
+      keyboardVerticalOffset={0}
     >
       <ScrollView>
         <View style={styles.form}>
