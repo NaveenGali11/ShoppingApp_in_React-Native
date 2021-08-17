@@ -2,15 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53a8965b-c092-4e39-a4f2-3ddace684fcd" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/navigation/NavigationContainer.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/navigation/ShopNavigator.js" beforeDir="false" afterPath="$PROJECT_DIR$/navigation/ShopNavigator.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/StartupScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/StartupScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/shop/CartScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/shop/CartScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/shop/OrdersScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/shop/OrdersScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/shop/ProductDetailScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/shop/ProductDetailScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/shop/ProductsOverviewScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/shop/ProductsOverviewScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/user/AuthScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/user/AuthScreen.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/screens/user/EditProductScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/user/EditProductScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/user/UserProductsScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/user/UserProductsScreen.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/store/actions/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/store/actions/auth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/actions/products.js" beforeDir="false" afterPath="$PROJECT_DIR$/store/actions/products.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/store/reducers/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/store/reducers/auth.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,13 +57,14 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="code.cleanup.on.save" value="true" />
     <property name="format.on.save" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="optimize.imports.on.save" value="true" />
     <property name="prettierjs.PrettierConfiguration.Package" value="D:\ReactNative_Udemy\shopApp\node_modules\prettier" />
     <property name="rearrange.code.on.save" value="true" />
-    <property name="settings.editor.selected.configurable" value="actions.on.save" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2021.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -72,6 +79,8 @@
       <workItem from="1628771724780" duration="8692000" />
       <workItem from="1628784607525" duration="2979000" />
       <workItem from="1628816928721" duration="4122000" />
+      <workItem from="1629162386484" duration="415000" />
+      <workItem from="1629162883105" duration="4525000" />
     </task>
     <servers />
   </component>

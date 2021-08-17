@@ -78,7 +78,7 @@ const UserProductsScreen = (props) => {
   );
 };
 
-UserProductsScreen.navigationOptions = (navData) => {
+export const UserProductsScreenOptions = (navData) => {
   return {
     headerTitle: "Users Personal Items",
     headerLeft: () => (

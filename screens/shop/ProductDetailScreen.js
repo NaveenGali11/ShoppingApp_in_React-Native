@@ -2,18 +2,17 @@ import React from "react";
 import {
   Button,
   Image,
-  Platform,
   ScrollView,
   StyleSheet,
   Text,
   View,
 } from "react-native";
-import { useSelector, useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import Colors from "../../constants/Colors";
 import * as cartActions from "../../store/actions/cart";
 
 const ProductDetailsScreen = (props) => {
-  const productId = props.navigation.getParam("productId");
+  const productId = props.route.params.productId;
 
   const dispatch = useDispatch();
 
@@ -39,9 +38,9 @@ const ProductDetailsScreen = (props) => {
   );
 };
 
-ProductDetailsScreen.navigationOptions = (navData) => {
+export const detailsScreenOptions = (navData) => {
   return {
-    headerTitle: navData.navigation.getParam("productTitle"),
+    headerTitle: navData.route.params.productTitle,
   };
 };
 

@@ -9,7 +9,7 @@ import {
   View,
 } from "react-native";
 import ProductItem from "../../components/shop/ProductItem";
-import { useSelector, useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import * as cartActions from "../../store/actions/cart";
 import { HeaderButtons, Item } from "react-navigation-header-buttons";
 import HeaderButton from "../../components/UI/HeaderButton";
@@ -37,13 +37,10 @@ const ProductsOverviewScreen = (props) => {
   }, [dispatch]);
 
   useEffect(() => {
-    const willFocusSub = props.navigation.addListener(
-      "willFocus",
-      loadedProducts
-    );
+    const unsubscribe = props.navigation.addListener("focus", loadedProducts);
 
     return () => {
-      willFocusSub.remove();
+      unsubscribe();
     };
   }, [loadedProducts]);
 
@@ -129,7 +126,7 @@ const ProductsOverviewScreen = (props) => {
   );
 };
 
-ProductsOverviewScreen.navigationOptions = (navData) => {
+export const screenOptions = (navData) => {
   return {
     headerTitle: "All Products",
     headerLeft: () => (
