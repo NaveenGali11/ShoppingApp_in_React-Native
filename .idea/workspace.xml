@@ -1,35 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="53a8965b-c092-4e39-a4f2-3ddace684fcd" name="Changes" comment="">
+    <list default="true" id="c7c2c569-ab3d-4a72-8026-2a3a6220f6a0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/navigation/NavigationContainer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/navigation/ShopNavigator.js" beforeDir="false" afterPath="$PROJECT_DIR$/navigation/ShopNavigator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/cart-item.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/cart-item.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/product.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/product.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/StartupScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/StartupScreen.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/screens/shop/CartScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/shop/CartScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/shop/OrdersScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/shop/OrdersScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/shop/ProductDetailScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/shop/ProductDetailScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/shop/ProductsOverviewScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/shop/ProductsOverviewScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/user/AuthScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/user/AuthScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/user/EditProductScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/user/EditProductScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/user/UserProductsScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/user/UserProductsScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/actions/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/store/actions/auth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/reducers/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/store/reducers/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/actions/orders.js" beforeDir="false" afterPath="$PROJECT_DIR$/store/actions/orders.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/actions/products.js" beforeDir="false" afterPath="$PROJECT_DIR$/store/actions/products.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/reducers/cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/store/reducers/cart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/reducers/products.js" beforeDir="false" afterPath="$PROJECT_DIR$/store/reducers/products.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="JavaScript File" />
-      </list>
-    </option>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -42,11 +36,7 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
-  <component name="ProblemsViewState">
-    <option name="selectedIndex" value="2" />
-  </component>
-  <component name="ProjectId" id="1wcxWYnqU9JHrKX8dFfcq75jV9S" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1wqm8w2hNKDXXJhInu7fQ3QVI4v" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -55,32 +45,28 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="code.cleanup.on.save" value="true" />
-    <property name="format.on.save" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="optimize.imports.on.save" value="true" />
     <property name="prettierjs.PrettierConfiguration.Package" value="D:\ReactNative_Udemy\shopApp\node_modules\prettier" />
-    <property name="rearrange.code.on.save" value="true" />
     <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
-    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2021.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="53a8965b-c092-4e39-a4f2-3ddace684fcd" name="Changes" comment="" />
-      <created>1628771713846</created>
+      <changelist id="c7c2c569-ab3d-4a72-8026-2a3a6220f6a0" name="Changes" comment="" />
+      <created>1629194345028</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1628771713846</updated>
-      <workItem from="1628771724780" duration="8692000" />
-      <workItem from="1628784607525" duration="2979000" />
-      <workItem from="1628816928721" duration="4122000" />
-      <workItem from="1629162386484" duration="415000" />
-      <workItem from="1629162883105" duration="4525000" />
+      <updated>1629194345028</updated>
+      <workItem from="1629194349242" duration="249000" />
+      <workItem from="1629205500127" duration="4787000" />
+      <workItem from="1629249762407" duration="20000" />
+      <workItem from="1629251562220" duration="1227000" />
+      <workItem from="1629282538905" duration="3759000" />
+      <workItem from="1629457031470" duration="1392000" />
+      <workItem from="1630123558668" duration="1341000" />
+      <workItem from="1630129927876" duration="3232000" />
     </task>
     <servers />
   </component>

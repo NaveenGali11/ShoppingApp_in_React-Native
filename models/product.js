@@ -1,7 +1,16 @@
 class product {
-  constructor(id, ownerId, title, imageUrl, description, price) {
+  constructor(
+    id,
+    ownerId,
+    ownerPushToken,
+    title,
+    imageUrl,
+    description,
+    price
+  ) {
     this.id = id;
     this.ownerId = ownerId;
+    this.pushToken = ownerPushToken;
     this.imageUrl = imageUrl;
     this.title = title;
     this.description = description;

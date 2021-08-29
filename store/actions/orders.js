@@ -1,4 +1,5 @@
 import Order from "../../models/orders";
+import cart from "../reducers/cart";
 
 export const ADD_ORDER = "ADD_ORDER";
 export const SET_ORDERS = "SET_ORDERS";
@@ -73,5 +74,26 @@ export const addOrder = (cartItems, totalAmount) => {
         date: date,
       },
     });
+
+    for (const cartItem of cartItems) {
+      const pushToken = cartItem.productPushToken;
+      fetch("https://exp.host/--/api/v2/push/send", {
+        method: "POST",
+        headers: {
+          Accept: "application/json",
+          "Accept-Encoding": "gzip,deflate",
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          to: pushToken,
+          title: "Order was Placed!",
+          body: cartItem.productTitle,
+        }),
+      }).catch((err) => {
+        console.log(err.message);
+        console.log(cartItem.productPushToken);
+        console.log(pushToken);
+      });
+    }
   };
 };
